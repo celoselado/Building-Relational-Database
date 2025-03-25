@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D872281-D844-9323-7AA0-3D373DEC3FAD" name="T_VB_ESTABELECIMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 11:02:49 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_estabelecimento" id="D78FD742-3D47-ADEF-86F4-0C2F03190011">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:26:27 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao_social" id="67EF5CD1-47A2-0DA5-5E68-4FDE03502382">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:26:50 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="20CC4746-24FB-23AE-9D97-C0E6B7726C41">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:27:11 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="F3DF5FEF-4804-04F5-A9CA-E47ADB90E90B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:27:28 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="5DFDFBBE-617E-B22C-BA87-E5EFBA973D76">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:27:42 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscricao_estadual" id="1FC17E7B-CABE-CD5B-AD10-9D2D9B4F1F9C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:27:58 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_mesa" id="1DDC69DB-732D-A88D-05EA-E124D33DED67">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:28:37 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B765F2B-F963-EDAC-6ADA-ED5224A6E670" name="T_VB_ESTABELECIMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:26:47 UTC</createdTime>
+<ownerDesignName>AulaPraticaOracle</ownerDesignName>
+<engineerTo>
+<item key="B939A4D1-83C3-2823-1BD9-4E534FE7DB0A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D78FD742-3D47-ADEF-86F4-0C2F03190011</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
